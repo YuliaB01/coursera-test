@@ -39,11 +39,9 @@ span {
 	padding: 10px;
 	position: relative;
 	background-color: #A9A9A9;
-}
-
-.section-1, .section-2, .section-3 {
 	margin-left: 15px;
 }
+
 
 .section-1 span {
 	background-color: #F08080;
