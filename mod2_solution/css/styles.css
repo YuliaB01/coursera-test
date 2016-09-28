@@ -1,0 +1,139 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 16px;
+	font-family: 'Catamaran', sans-serif;
+	
+	
+}
+
+p {
+	line-height: 1.3em;
+	margin-top: 35px;
+	margin-bottom: 0;
+	
+}
+
+
+span {
+	font-size: 20px;
+}
+
+.header {
+	font-size: 30px;
+	text-align: center;
+}
+
+.row {
+	width: 100%;
+	clear: both;
+	
+}
+
+.section-1, .section-2, .section-3 {
+	border: 2px solid black;
+	width: 32%;
+	float: left;
+	padding: 10px;
+	position: relative;
+	background-color: #A9A9A9;
+}
+
+.section-1, .section-2, .section-3 {
+	margin-left: 15px;
+}
+
+.section-1 span {
+	background-color: #F08080;
+	position: absolute;
+	width: 40%;
+	top: 0;
+	right: 0;
+	border-left: 2px solid black;
+	border-bottom: 2px solid black;
+	text-align: center;
+	font-weight: bold;
+}
+
+.section-2 span {
+	background-color: #DC143C;
+	position: absolute;
+	width: 40%;
+	top: 0;
+	right: 0;
+	border-left: 2px solid black;
+	border-bottom: 2px solid black;
+	text-align: center;
+	font-weight: bold;
+	color: 	#FFFFFF;
+}
+
+.section-3 span {
+	background-color: #F5DEB3;
+	position: absolute;
+	width: 40%;
+	top: 0;
+	right: 0;
+	border-left: 2px solid black;
+	border-bottom: 2px solid black;
+	text-align: center;
+	font-weight: bold;
+}
+
+
+/************ Medium devices only ************/
+@media (min-width: 992px) and (max-width: 1199px) {
+	.section-1, .section-2, .section-3 {
+	background-color: #A9A9A9;
+	width: 31%;
+	float: left;
+	padding: 15px 15px 5px 15px;
+	margin-left: 22px;
+	border: 2px solid black;
+	position: relative;
+}
+}
+
+/************ Small devices only *************/
+@media (min-width: 768px) and (max-width: 991px) {
+		.row {
+			width: 100%;
+		}
+
+	.section-3 {
+		width: 97%;
+		margin-right: 25px;
+	}
+	.section-1, .section-2 {
+		width: 47.5%;
+		margin-bottom: 15px;
+	}
+	.section-3 span {
+		width: 20%;
+	}
+}
+
+/************ Extra small devices only ***********/
+@media (max-width: 767px) {
+	
+	.row {
+		width: 100%;
+	}
+	.section-1 {
+		width: 95%;
+		margin-bottom: 15px;
+		margin-right: 25px;
+	}
+	.section-2 {
+		width: 95%;
+		margin-bottom: 15px;
+		margin-right: 25px;
+	}
+	.section-3  {
+		width: 95%;
+		margin-bottom: 15px;
+		margin-right: 25px;
+	}
+}
