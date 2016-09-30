@@ -1,0 +1,125 @@
+body {
+	font-size: 16px;
+	font-family: 'Catamaran', sans-serif;
+	background-color: #eeeedd;
+}
+/* NAVBAR*/
+.navbar {
+	min-height: 57px;
+}
+
+.container-fluid>.navbar-header {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.navbar-brand {
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 25px;
+}
+
+#nav-list a {
+	font-size: 22px;
+}
+
+#nav-list a:hover {
+	background: #090808;
+}
+hr {
+	margin: 0;
+	border-top: 1px solid #333;
+}
+/* END OF THE NAVBAR */
+
+/* MAIN PART */
+h1 {
+	margin-top: 100px;
+	margin-bottom: 30px;
+	font-weight: bold;
+	font-size: 45px;
+}
+
+section {
+	margin: 0 70px 30px;
+	padding: 20px;
+	background-color: #888;
+	position: relative;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.chicken, .beef, .sushi {
+	text-align: center;
+	background-color: #999;
+	font-size: 30px;
+	font-weight: bold;
+	position: absolute;
+	left: 20px;
+	right: 20px;
+}
+
+p {
+	padding-top: 60px;
+	text-indent: 1.5em;
+	font-size: 19px;
+}
+
+.btn-default {
+	background-color: #999;
+}
+
+/*************** Medium devices only ************/
+@media (min-width: 992px) and (max-width: 1199px) {
+	h1 {
+		margin: 80px 0 25px 0;
+	}
+	.section-1 {
+		margin: 0 0 30px 30px;
+	}
+	.section-2 {
+		margin: 0 0 30px 0;
+	}
+	.section-3 {
+		margin-left: 0;
+		margin-right: 30px;
+	}
+	section p {
+		max-height: 900px;
+		overflow: hidden;
+	}
+}
+
+/************* Small devices only *************/
+@media (min-width: 768px) and (max-width: 991px) {
+	h1 {
+		margin: 80px 0 25px 0;
+	}
+	.section-1 {
+		margin: 0 0 30px 30px;
+	}
+	.section-2 {
+		margin: 0 30px 30px 0;
+	}
+	.section-3 {
+		margin: 0 30px 30px;
+	}
+	section p {
+		max-height: 412px;
+		overflow: hidden;
+	}
+}
+
+/************ Extra small devices only ***********/
+@media (max-width: 767px) {
+	h1 {
+		margin: 80px 0 25px 0;
+	}
+	section {
+		margin: 0 15px 30px;
+	}
+	section p {
+		max-height: 300px;
+		overflow: hidden;
+	}
+	
+}
