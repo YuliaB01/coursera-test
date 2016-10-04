@@ -57,7 +57,6 @@ section {
 }
 
 #chicken, #beef, #sushi {
-	/*text-align: center;*/
 	background-color: #999;
 	font-size: 30px;
 	font-weight: bold;
