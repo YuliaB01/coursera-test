@@ -1,7 +1,13 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
 body {
 	font-size: 16px;
 	font-family: 'Catamaran', sans-serif;
-	background-color: #eeeedd;
+	/*background-color: #eeeedd;*/
 }
 /* NAVBAR*/
 .navbar {
@@ -46,10 +52,12 @@ section {
 	background-color: #888;
 	position: relative;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	opacity: .9;
+	color: black;
 }
 
-.chicken, .beef, .sushi {
-	text-align: center;
+#chicken, #beef, #sushi {
+	/*text-align: center;*/
 	background-color: #999;
 	font-size: 30px;
 	font-weight: bold;
@@ -65,7 +73,8 @@ p {
 }
 
 .btn-default {
-	background-color: #999;
+	background-color: #c5b2b1;
+	color: black;
 }
 
 /*************** Medium devices only ************/
