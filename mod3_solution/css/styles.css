@@ -12,6 +12,7 @@ body {
 /* NAVBAR*/
 .navbar {
 	min-height: 57px;
+	margin-bottom: 0;
 }
 
 .container-fluid>.navbar-header {
@@ -40,8 +41,8 @@ hr {
 
 /* MAIN PART */
 h1 {
-	margin-top: 100px;
-	margin-bottom: 30px;
+	margin-top: 25px;
+	margin-bottom: 25px;
 	font-weight: bold;
 	font-size: 45px;
 }
@@ -74,12 +75,19 @@ p {
 .btn-default {
 	background-color: #c5b2b1;
 	color: black;
+	position: relative;
+}
+
+.section-2 a, .section-3 a {
+	position: absolute;
+	right: 20px;
+	bottom: 20px;
 }
 
 /*************** Medium devices only ************/
 @media (min-width: 992px) and (max-width: 1199px) {
 	h1 {
-		margin: 80px 0 25px 0;
+		margin: 25px 0 25px 0;
 	}
 	.section-1 {
 		margin: 0 0 30px 30px;
@@ -100,7 +108,7 @@ p {
 /************* Small devices only *************/
 @media (min-width: 768px) and (max-width: 991px) {
 	h1 {
-		margin: 80px 0 25px 0;
+		margin: 25px 0 25px 0;
 	}
 	.section-1 {
 		margin: 0 0 30px 30px;
@@ -112,7 +120,7 @@ p {
 		margin: 0 30px 30px;
 	}
 	section p {
-		max-height: 412px;
+		max-height: 430px;
 		overflow: hidden;
 	}
 }
@@ -120,13 +128,13 @@ p {
 /************ Extra small devices only ***********/
 @media (max-width: 767px) {
 	h1 {
-		margin: 80px 0 25px 0;
+		margin: 25px 0 25px 0;
 	}
 	section {
 		margin: 0 15px 30px;
 	}
 	section p {
-		max-height: 300px;
+		max-height: 430px;
 		overflow: hidden;
 	}
 	
